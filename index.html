@@ -167,14 +167,15 @@
       h3 {
         margin-top: 20px;
       }
+
       .logo-container {
-        position: absolute; 
-        top: 10px; 
-        left: 10px; 
+        position: absolute; /* Allows precise positioning */
+        top: 10px; /* Adjust as needed */
+        left: 10px; /* Adjust as needed */
       }
 
       .logo-container img {
-        height: 50px; 
+        height: 50px; /* Adjust the height as needed */
       }
     </style>
   </head>
@@ -396,8 +397,6 @@
       ><br />
       <textarea id="expectationsFromJob" name="expectationsFromJob"></textarea
       ><br /><br />
-
-      
 
       <h3>ADDITIONAL DETAILS</h3>
 
@@ -853,18 +852,7 @@
           alert("Form submitted successfully!");
 
           // You can add code here to submit the form data to a server using AJAX
-          // For example:
-          // var formData = new FormData(this);
-          // fetch('/your-server-endpoint', {
-          //   method: 'POST',
-          //   body: formData
-          // })
-          // .then(response => {
-          //   // Handle response from the server
-          // })
-          // .catch(error => {
-          //   // Handle error
-          // });
+          
 
           // Optionally, you can reset the form after successful submission
           this.reset();
